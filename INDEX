@@ -1,0 +1,80 @@
+<!--css interno-->
+    <style>
+        header.cabecalho {
+            font-size: 50 px;
+            background-color: pink;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        h2.vermelho {
+            color: red
+        }
+       
+    </style>
+    <link rel="stylesheet"href= "estilo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Meu blog pessoal</h1>
+        <h2 class="vermelho" style="font-size: 20px; color:red;"> Bem - vindos ao blog oficial da Cel</h2>
+
+    </header>
+    <main>
+        <header>
+            <!--Menu de navegação-->
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li><a href="https://www.rj.senac.br/" target="_blank">Quem somos</a></li>
+                    <li>Últimas Postagens</li>
+                    <ul>
+                        <li><a href="#frente-fria">Frente fria no RJ </a></li>
+                    </ul>
+                    <ul>
+                        <li>Fale Conosco</li>
+                    </ul>
+
+            </nav>
+
+            <h2>Postagens mais recentes</h2>
+            <h3>Ediçaõ: agosto/2024</h3>
+        </header>
+        <section>
+            <article>
+                <he>Frente fria chegando no Rio!!!</he>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus dolor omnis ipsum eos vero at? Fugiat
+                    quia amet pariatur ducimus optio, esse repellendus! Non deserunt saepe optio ipsum maiores velit.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, esse consequuntur. Harum odio
+                    provident quaerat vero blanditiis illum eligendi commodi porro, dolorum adipisci quis aliquid beatae
+                    minus quidem hic. Ab!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi adipisci recusandae repellat nemo
+                    iusto beatae? Voluptatibus voluptate laboriosam eveniet nulla, minima labore aliquid fugit cum
+                    commodi est quia quis.</p>
+
+            </article>
+            <article>
+                <h2>Sinusite atinge mulheres no rio de janeiro</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nulla a ab esse dicta exercitationem
+                    et facere maiores reiciendis iure. Iste nisi voluptates magni ipsam a vitae nemo animi ullam!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit doloremque obcaecati tenetur ipsa
+                    corrupti ea vitae odit voluptatem quisquam quibusdam adipisci sunt, dolorem aliquam excepturi
+                    accusamus reiciendis pariatur ullam. Aliquam.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis velit quae doloremque facere
+                    repellendus eligendi optio accusamus beatae eaque quia! Nihil, ut officia. Sint dolores dolore
+                    tenetur suscipit vel voluptates!</p>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>meu blog foi desenvolvido por <span>Elaine Celestino</span> : &copy; 2024</p>
+    </footer>
+
+</body>
+
+</html>
