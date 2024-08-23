@@ -1,0 +1,108 @@
+/* 
+PREFERÊNCIA DE LEITURA DO CSS
+
+1º) CSS INLINE
+2º) CSS INTERNO
+3º) CSS EXTERNO
+
+*/
+/*TIRAR MARGEM E PREENCHER AO SITE O * É TUDO */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1200PX;/*dimensionar o site */
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+
+header.cabecalho {
+    
+    background-color: #4AC0E0;
+    color: #000080;
+    text-align: center;
+}
+
+header h1, head h2 {
+    color:#959595
+}
+
+
+/* Menu */
+nav {
+    background-color: #B3E04A;
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+
+}
+/* alterando caracteristica dos itens da lista*/
+nav ul li  { 
+    list-style: none;
+    display: inline-block; /*coloca na mesma linha*/
+
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px ;
+    border-right: 2px solid #959595;
+    text-align: center;
+    transition:backgroung-color 1s;
+
+    
+}
+/*passar por cima  subclasse =hover*/
+nav ul li :hover, nav ul li a  :hover{
+    background-color: azure;
+
+}
+/* alterando caracteristica do link*/
+ nav ul li a {
+    color: aliceblue;
+    text-decoration: none; /* tirar underline do link*/
+    transition: background-color 1s;
+ }
+
+/* Parte Principal */
+main{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+
+}
+main section{
+    margin-top: 15px;
+}
+main section article{
+    margin-top: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+main section article spam{
+    font-size: 20;
+    font-style: italic;
+    color: #E04A93;
+}
+
+/* Rodapé */
+footer{
+    position: absolute;
+    bottom: 0px;
+    max-width: 1200px;
+    width: 100%;
+    font-size: 26px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #E04A93;
+    text-align: center;
+}
+
+footer span{
+    font-style: italic;
+}
+
+
+
+
+
+
